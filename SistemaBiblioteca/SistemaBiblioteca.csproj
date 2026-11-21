@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SistemaBiblioteca</RootNamespace>
+    <AssemblyName>SistemaBiblioteca</AssemblyName>
+    <AssemblyTitle>Sistema de Gestión de Biblioteca</AssemblyTitle>
+    <Product>Sistema de Gestión de Biblioteca</Product>
+    <StartupObject>SistemaBiblioteca.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+</Project>
