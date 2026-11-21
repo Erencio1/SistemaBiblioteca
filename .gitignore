@@ -13,7 +13,11 @@
 *.sln.docstates
 *.rsuser
 
+# ZIP de entrega (se genera con CrearEntrega.ps1)
+Entrega/
+
 # Varios
+~$*
 *.log
 Thumbs.db
 Desktop.ini

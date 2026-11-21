@@ -54,6 +54,9 @@ Las contraseñas se guardan cifradas con **SHA-256**.
 ## Estructura del proyecto (arquitectura por capas)
 
 ```
+CrearEntrega.ps1            Genera Entrega/SistemaBiblioteca_Entrega.zip para subir a Canvas
+Documentacion/
+  Documentacion_Sistema_Biblioteca.docx   Documento del proyecto (UML, ER, diccionario, manual)
 BaseDatos/
   BibliotecaDB.sql          Script de creación (11 tablas, 3FN) + datos de ejemplo
 SistemaBiblioteca/
