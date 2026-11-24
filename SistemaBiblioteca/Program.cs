@@ -14,6 +14,10 @@ namespace SistemaBiblioteca
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
+            // Busca el SQL Server de la PC y crea la base "Biblioteca" si no existe.
+            if (!ConfiguradorBD.Inicializar())
+                return;
+
             while (true)
             {
                 using (var login = new FrmLogin())

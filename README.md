@@ -16,6 +16,13 @@ y los usuarios del sistema, y registrar los **préstamos** y **devoluciones**.
 
 ## Instalación
 
+**Forma rápida:** abrir `SistemaBiblioteca.sln` y presionar **F5**. Al iniciar, el sistema busca un
+SQL Server en la PC (App.config, LocalDB, `.\SQLEXPRESS` o `localhost`). Si la base `Biblioteca` no
+existe, la crea sola con el script incluido en el ejecutable. Si no encuentra ningún servidor, pide
+el nombre (ventana *Conexión a SQL Server*).
+
+**Forma manual:**
+
 1. **Crear la base de datos**: abrir `BaseDatos/BibliotecaDB.sql` y ejecutarlo completo
    (en SSMS, o en Visual Studio: *Ver → Explorador de objetos de SQL Server* → clic derecho en el
    servidor `(localdb)\MSSQLLocalDB` → *Nueva consulta* → pegar el script → Ejecutar).

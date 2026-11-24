@@ -15,4 +15,9 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- El script de la base va dentro del .exe para crearla automáticamente al iniciar -->
+    <EmbeddedResource Include="..\BaseDatos\BibliotecaDB.sql" Link="BaseDatos\BibliotecaDB.sql" LogicalName="BibliotecaDB.sql" />
+  </ItemGroup>
+
 </Project>

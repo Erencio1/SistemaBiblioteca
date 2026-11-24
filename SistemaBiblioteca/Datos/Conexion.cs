@@ -12,6 +12,10 @@ namespace SistemaBiblioteca.Datos
         {
             get
             {
+                // Cadena detectada al iniciar el sistema (ver ConfiguradorBD).
+                if (ConfiguradorBD.CadenaConexion != null)
+                    return ConfiguradorBD.CadenaConexion;
+
                 var cs = ConfigurationManager.ConnectionStrings["Biblioteca"];
                 if (cs == null)
                     throw new ConfigurationErrorsException("No se encontró la cadena de conexión 'Biblioteca' en App.config.");

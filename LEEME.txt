@@ -1,0 +1,21 @@
+﻿SISTEMA DE GESTIÓN DE BIBLIOTECA - C# (Windows Forms) + SQL Server
+=====================================================================
+
+PARA EJECUTARLO:
+  1) Abrir SistemaBiblioteca.sln con Visual Studio.
+  2) Presionar F5.
+
+  La base de datos "Biblioteca" se crea SOLA la primera vez
+  (no hace falta ejecutar el script SQL ni tocar App.config).
+
+USUARIOS DE PRUEBA:
+  admin          / admin123    (Administrador)
+  bibliotecario  / biblio123   (Bibliotecario)
+
+SI LA PC NO TIENE SQL SERVER:
+  Instalar "SQL Server Express LocalDB" desde el Visual Studio Installer
+  (Modificar -> Componentes individuales) o SQL Server Express (gratis):
+  https://www.microsoft.com/sql-server/sql-server-downloads
+  y volver a presionar F5.
+
+Más detalles en README.md y en la Documentación (carpeta Documentacion).
